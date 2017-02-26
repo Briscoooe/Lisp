@@ -1,2 +1,2 @@
 # Lisp
-My own Lisp programming language 
+My own Lisp programming language implementation
