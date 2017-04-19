@@ -4,6 +4,12 @@
 #include "mpc.h"
 #include <editline/readline.h>
 
+/* lval struct */
+typedef struct {
+	int type;
+	long num;
+	int err;
+} lval;
 
 long eval_op(long x, char* op, long y){
 	if(strcmp(op, "+") == 0) { return x + y;}
