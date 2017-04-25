@@ -373,7 +373,7 @@ int main(int argc, char** argv) {
 	Number, Symbol, Sexpr, Qexpr, Expr, Lispy);
 
 
-	puts("Lispy version 0.0.0.0.6");
+	puts("Lispy version 0.0.0.0.7");
 	puts("Press Ctrl+C to Exit\n");
 
 	while(1) {
